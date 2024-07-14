@@ -1,0 +1,14 @@
+.rules{
+    background:rgb(240, 201, 201);
+    width:794px;
+height:150px;
+margin: auto auto;
+/* max-resolution: ; */
+margin-bottom:20px ;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+/* line-height: 24px; */
+/* text-align: left; */
+border: 2px solid black;
+}

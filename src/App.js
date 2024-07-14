@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { GamingInterface } from './components/gaming';
+import {Main} from "./components/main";
+import { useState } from 'react';
 function App() {
+  const[isclicked,setclicked]=useState(false);
+  const togglefunction =()=>{
+      setclicked((prev)=>!prev)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       {isclicked?<GamingInterface></GamingInterface>:<Main toggle={togglefunction}/>}
+    </>
   );
 }
 

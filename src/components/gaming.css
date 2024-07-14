@@ -1,0 +1,43 @@
+.box{
+    width: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    height: 20px;
+}
+.head{
+    width: 70vw;
+    margin: auto auto;
+}
+.numpanel{
+    display: flex;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+h1{
+    font-size: 50px;
+}
+.btns button{
+    display: flex;
+    margin: 10px;
+    
+    padding: 10px;
+}
+.dicethrow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 1vh;
+}
+/* .selected{
+    background: black;
+} */
+.head h3{
+    color: red;
+    text-align: right;
+    margin-top: 2%;
+}
