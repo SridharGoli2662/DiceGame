@@ -13,7 +13,7 @@ export function GamingInterface() {
         setbc(!getbc);
     }
     const [getnewcompo, setnewcompt] = useState(false);
-    const [ermsg,err] = useState(false);
+    const [err] = useState(false);
     const [errormsg, setmsg] = useState();
     // function trial()
     // {
@@ -75,7 +75,7 @@ export function GamingInterface() {
             </div>
                 <span><h2>Selected Value is: {getvalue}</h2></span> 
             <div className="dicethrow">
-                <img onClick={roleDice} src={`/dices/dice_${currentDice}.png`}></img>
+                <img onClick={roleDice} alt='dice'src={`/dices/dice_${currentDice}.png`}></img>
                 <p>Click On Dice To Roll</p>
                 <div className="btns">
                     <button onClick={setzero}>

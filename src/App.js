@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { GamingInterface } from './components/gaming';
 import {Main} from "./components/main";
